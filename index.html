@@ -547,15 +547,8 @@
 
     </div>
     <script>
-        function appear() {
-
-            if (document.querySelector('.nav-list').style.display == 'block') {
-                document.querySelector('.nav-list').style.display = 'none'
-
-            }
-            else {
-                document.querySelector('.nav-list').style.display = 'block'
-            }
+         function appear() {
+            document.querySelector(".nav-list").classList.toggle("display-block");
         }
     </script>
 </body>
